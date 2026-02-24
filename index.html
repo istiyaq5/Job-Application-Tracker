@@ -21,7 +21,7 @@ business"
       <h1 class="text-3xl font-bold text-blue-700 mb-8">
         Job Application Tracker
       </h1>
-     <!-- ========= TotalCount Start ========== -->
+      <!-- ========= TotalCount Start ========== -->
       <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12">
         <div class="bg-white rounded-lg p-6 shadow-xl">
           <p class="text-sm text-gray-500">Total</p>
@@ -41,6 +41,23 @@ business"
         </div>
       </div>
       <!-- END -->
+      <!-- ================= AVAILABLE JOBS ================= -->
+
+      <div class="flex justify-between items-center mb-4">
+        <h2 class="text-xl font-semibold">Available Jobs</h2>
+        <span id="tabJobCount" class="text-sm text-gray-600">8 jobs</span>
+      </div>
+
+      <!-- Tabs -->
+      <div class="flex gap-3 mb-8">
+        <button id="allTab" class="btn btn-primary btn-sm">All</button>
+        <button id="interviewTab" class="btn btn-outline btn-sm">
+          Interview
+        </button>
+        <button id="rejectedTab" class="btn btn-outline btn-sm">
+          Rejected
+        </button>
+      </div>
     </div>
   </body>
 </html>
