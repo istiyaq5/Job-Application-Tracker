@@ -30,3 +30,14 @@ function updateDashboard() {
   rejectedCount.innerText = rejected;
 }
 
+// ========================
+// UPDATE DASHBOARD
+// ========================
+function updateDashboard() {
+  const total = document.querySelectorAll(".job-card").length;
+
+  totalCount.innerText = total;
+  interviewCount.innerText = interview;
+  rejectedCount.innerText = rejected;
+}
+
