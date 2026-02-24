@@ -149,3 +149,27 @@ document.querySelectorAll(".job-card").forEach((card) => {
   });
 });
 
+
+// ========================
+// TAB EVENTS
+// ========================
+allTab.addEventListener("click", () => {
+  currentTab = "all";
+  filterCards("all");
+});
+
+interviewTab.addEventListener("click", () => {
+  currentTab = "interview";
+  filterCards("interview");
+});
+
+rejectedTab.addEventListener("click", () => {
+  currentTab = "rejected";
+  filterCards("rejected");
+});
+
+// ========================
+// INITIAL LOAD
+// ========================
+updateDashboard();
+filterCards("all");
