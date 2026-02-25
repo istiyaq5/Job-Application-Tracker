@@ -19,16 +19,6 @@ let interview = 0;
 let rejected = 0;
 let currentTab = "all";
 
-// ========================
-// UPDATE DASHBOARD
-// ========================
-function updateDashboard() {
-  const total = document.querySelectorAll(".job-card").length;
-
-  totalCount.innerText = total;
-  interviewCount.innerText = interview;
-  rejectedCount.innerText = rejected;
-}
 
 // ========================
 // UPDATE DASHBOARD
@@ -148,7 +138,6 @@ document.querySelectorAll(".job-card").forEach((card) => {
     filterCards(currentTab);
   });
 });
-
 
 // ========================
 // TAB EVENTS
