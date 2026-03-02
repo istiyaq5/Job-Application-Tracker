@@ -19,7 +19,6 @@ let interview = 0;
 let rejected = 0;
 let currentTab = "all";
 
-
 // ========================
 // UPDATE DASHBOARD
 // ========================
